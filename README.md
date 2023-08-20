@@ -1,6 +1,6 @@
-# Business Trip Reimbursement Calculation Application
+<h1 align="center">Business Trip Reimbursement Calculation Application</h1>
 
-This project aims to create a Java application to manage the reimbursement of expenses for a user's business trip.
+<p align="center">This project aims to create a Java application to manage the reimbursement of expenses for a user's business trip.</p>
 
 ![Alt Text](https://raw.githubusercontent.com/kszczep5/reimbursement-app/main/preview.png?raw=true)
 
