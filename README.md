@@ -39,6 +39,40 @@ npm install
 ```sh
 npm start
 ```
+4. You can also create a production build: 
+```sh
+npm run build
+```
+5. The build folder is ready to be deployed. You may serve it with a static server: 
+```sh
+npm install -g serve
+serve -s build
+```
+
+## Using the App
+
+To use the Business Trip Reimbursement Calculation Application, follow the steps below. Make sure you have both the backend and frontend components up and running.
+
+### Accessing the App
+
+Once both the backend and frontend are running, you can access the application using your web browser. Open your browser and go to the following address:
+
+```
+http://localhost:3000
+```
+
+### Login Credentials
+
+To access different views of the application, use the following login credentials:
+
+**Admin Dashboard:**
+- Username: admin
+- Password: admin
+
+**User Dashboard:**
+- Username: user
+- Password: user
+
 
 ## Running Tests
 
@@ -100,7 +134,8 @@ During the development of the reimbursement calculation application, a combinati
 - **React 18.2.0:** The frontend was developed using React, a popular JavaScript library for building user interfaces. React's component-based architecture allowed for the creation of modular and reusable UI elements.
 
 - **npm 9.8.0:** npm (Node Package Manager) was used to manage and install frontend dependencies. It streamlined the process of including external libraries and tools required for frontend development.
+Sure, here's the updated section with the addition of Node.js:
 
-## Conclusion
+- **Node.js 20.4.0:** Node.js is the runtime environment used for executing JavaScript code on the server-side. It provided the necessary runtime for building and running the React frontend application.
 
-This project aims to create a Java application for managing business trip expense reimbursements. It includes functional requirements for both end users and administrators, along with nonfunctional requirements for setting up and running the application. The application's backend is implemented in Java 11 using Maven, and the frontend is developed using the chosen frontend technology.
+
