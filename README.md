@@ -2,6 +2,8 @@
 
 This project aims to create a Java application to manage the reimbursement of expenses for a user's business trip.
 
+![Alt Text](https://raw.githubusercontent.com/kszczep5/reimbursement-app/main/preview.png?raw=true)
+
 ## Project Setup and Execution
 
 ### Backend (Java)
