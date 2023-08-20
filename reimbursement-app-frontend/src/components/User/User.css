@@ -1,0 +1,67 @@
+.user-view-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.user-form,
+.fetched-data {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 400px;
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+}
+
+.user-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.user-form input,
+.user-form select,
+.user-form button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.user-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.fetched-data {
+  overflow-y: auto;
+  max-height: 80vh;
+  flex-grow: 1;
+  scrollbar-gutter: stable;
+}
+
+.reimbursement-entry {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 400px;
+  text-align: left;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.reimbursement-entry h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.reimbursement-entry h4 {
+  text-align: center;
+  margin-bottom: 0;
+}
