@@ -129,6 +129,8 @@ During the development of the reimbursement calculation application, a combinati
 
 - **Jackson ObjectMapper:** Jackson's ObjectMapper was employed for handling JSON serialization and deserialization. This was particularly useful for converting data between the frontend and backend components.
 
+- **Exec Maven Plugin 3.0.0:** Exec Maven Plugin provides a way to define and manage dependencies for executing custom tasks or applications, allowing you to create a consistent and controlled environment for running your software.
+
 ### Frontend:
 
 - **React 18.2.0:** The frontend was developed using React, a popular JavaScript library for building user interfaces. React's component-based architecture allowed for the creation of modular and reusable UI elements.
