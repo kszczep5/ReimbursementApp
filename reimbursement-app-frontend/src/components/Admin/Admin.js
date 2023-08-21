@@ -57,7 +57,6 @@ const Admin = () => {
 
       if (responseString) {
         const responseData = await JSON.parse(responseString)
-        console.log(responseData.receipts)
         dispatch({ type: 'SET_DAILY_ALLOWANCE_RATE', payload: responseData.dailyAllowanceRate })
         dispatch({ type: 'SET_CAR_MILEAGE_RATE', payload: responseData.carMileageRate })
         dispatch({ type: 'SET_RECEIPTS', payload: responseData.receipts })
@@ -99,7 +98,6 @@ const Admin = () => {
 
   const handleAddReceipt = () => {
     dispatch({ type: 'ADD_RECEIPT' })
-    console.log(state)
   }
 
   const handleRemoveReceipt = (index) => {
